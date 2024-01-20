@@ -152,23 +152,53 @@ main {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 71px;
 }
-.resume-education{
+
+.resume-education {
     margin-top: 113px;
 }
-.resume-details{
-    
-}
-.resume-left{
+
+.resume-details {}
+
+.resume-left {
     margin-left: 230px;
 }
-.resume-right{
+
+.resume-right {
     margin-right: 277px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
 }
